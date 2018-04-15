@@ -1,0 +1,6 @@
+mpd_host="localhost"
+mpd_port="6600"
+mpd_music_dir="~/music"
+main_window_color = "red"
+progressbar_elapsed_color = "red"
+color2 = "blue"

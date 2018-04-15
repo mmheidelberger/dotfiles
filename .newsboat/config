@@ -1,0 +1,12 @@
+browser "w3m %u"
+color info yellow red bold
+color listfocus yellow black
+color listfocus_unread black yellow
+
+bind-key j down
+bind-key k up
+bind-key h left
+bind-key l right
+
+#remember, macros start with a ,
+macro p set browser "mpv"; open-in-browser ; set browser $browser
